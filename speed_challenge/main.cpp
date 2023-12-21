@@ -122,7 +122,7 @@ int main()
 
 	reverse(optimalControl.begin(), optimalControl.end());
 
-	ofstream controlFile("control1.txt");
+	ofstream controlFile("control.txt");
 	for (int i = 0; i < optimalControl.size(); ++i) {
 		controlFile << i + 1 << " " << optimalControl[i][0] << "\n";
 	}
